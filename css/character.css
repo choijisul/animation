@@ -15,14 +15,41 @@
 
 .scroll-content {
     display: flex;
-    width: 200%;
+    width: 600%;
+    margin-left: 6.5%;
 }
 
 .scroll-content img {
     width: 370px;
     height: 537px;
-    margin-left: 2.5%;
 }
+
+.characterName {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    margin-left: 40%;
+}
+
+.img-container {
+    position: relative;
+    display: inline-block;
+    margin-left: 0.4%;
+    font-family: 'Gugi', cursive;
+    font-size: 1.5rem;
+    text-shadow: 5px 5px 5px black;
+}
+
+/* .characterName { */
+    /* position: absolute; */
+    /* color: rgb(0, 0, 0); */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* font-size: 2rem; */
+    /* font-family: 'Gugi', cursive; */
+/* } */
 
 @media screen and (max-width: 830px) {
     .scroll-content img {
@@ -35,7 +62,7 @@
         overflow-x: scroll;
     }
 
-    .title{
+    .title {
         margin-top: 15%;
         margin-bottom: 8%;
     }
