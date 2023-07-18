@@ -1,0 +1,14 @@
+.div_container {
+    margin: auto;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0;
+}
+
+
+.pictureImg {
+    width: 93%;
+    height: auto;
+    margin: 5px;
+}

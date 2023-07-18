@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+
+.title {
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Gugi', cursive;
+    color: #002593;
+}
+
+@media screen and (max-width: 830px) {
+    .title {
+        margin-top: 15%;
+        margin-bottom: 8%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .title {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 1.3rem;
+    }
+}

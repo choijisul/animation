@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
 
-.title {
-    margin-top: 40px;
-    text-align: center;
-    font-family: 'Gugi', cursive;
-    color: #002593;
-}
-
 .scroll-container {
     overflow-x: hidden;
     overflow-y: hidden;
