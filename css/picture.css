@@ -6,9 +6,14 @@
     grid-gap: 0;
 }
 
-
 .pictureImg {
     width: 93%;
     height: auto;
     margin: 5px;
+}
+
+@media screen and (max-width: 540px) {
+    .div_container{
+        width: 95%;
+    }
 }

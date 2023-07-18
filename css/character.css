@@ -35,15 +35,6 @@
     text-shadow: 5px 5px 5px black;
 }
 
-/* .characterName { */
-    /* position: absolute; */
-    /* color: rgb(0, 0, 0); */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* font-size: 2rem; */
-    /* font-family: 'Gugi', cursive; */
-/* } */
-
 @media screen and (max-width: 830px) {
     .scroll-content img {
         width: 370px;
@@ -55,10 +46,6 @@
         overflow-x: scroll;
     }
 
-    .title {
-        margin-top: 15%;
-        margin-bottom: 8%;
-    }
 }
 
 @media screen and (max-width: 540px) {
@@ -70,12 +57,6 @@
 
     .scroll-container {
         overflow-x: scroll;
-    }
-
-    .title {
-        margin-top: 30px;
-        margin-bottom: 30px;
-        font-size: 1.3rem;
     }
 
     .characterName{
