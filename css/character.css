@@ -15,7 +15,7 @@
 
 .scroll-content {
     display: flex;
-    width: 600%;
+    width: 400%;
     margin-left: 6.5%;
 }
 
@@ -30,7 +30,7 @@
     left: 0;
     width: 100%;
     color: white;
-    margin-left: 40%;
+    text-align: center;
 }
 
 .img-container {
@@ -87,6 +87,5 @@
 
     .characterName{
         font-size: 1.5rem;
-        margin-left: 42%;
     }
 }
