@@ -84,4 +84,9 @@
         margin-bottom: 30px;
         font-size: 1.3rem;
     }
+
+    .characterName{
+        font-size: 1.5rem;
+        margin-left: 42%;
+    }
 }

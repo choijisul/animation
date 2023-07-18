@@ -1,6 +1,6 @@
 
 const container = document.querySelector('.scroll-container');
-const scrollSpeed = 2.11; // 스크롤 속도를 조절하는 값
+const scrollSpeed = 3; // 스크롤 속도를 조절하는 값
 
 container.addEventListener('wheel', (event) => {
     event.preventDefault(); // 기본 스크롤 동작 방지
