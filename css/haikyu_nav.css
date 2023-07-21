@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    background-color: #E28A3D;
+    height: 20px;
+}
+
+.logo1 {
+    height: 38px;
+    width: 38px;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    font-family: 'Gugi', cursive;
+}
+
+.nav_item {
+    margin-left: 40px;
+}
+
+.navbar_menu {
+    list-style: none;
+    display: flex;
+    margin-right: 7px;
+    padding-left: 0;
+}
+
+.nav_toggle {
+    visibility: hidden;
+    font-size: 35px;
+    color: white;
+    position: absolute;
+}
+
+@media screen and (max-width: 830px) {
+
+    .logo1 {
+        margin-top: -20px;
+        position: absolute;
+    }
+
+    .nav_link {
+        font-size: 1rem;
+    }
+
+    .nav_item {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+
+    /*390*/
+    .navbar_menu {
+        position: absolute;
+        top: 44px;
+        /*navbar 아래로*/
+        right: -9px;
+        left: 0;
+        /*양옆 공간 늘리기*/
+        flex-direction: column;
+        /*column 수직인거 시험에 나옴*/
+        /*align-items: center;  /*교차축 가운데*/
+        text-align: center;
+        /*글자만 가운데로*/
+        background-color: #EBBB61;
+        backdrop-filter: blur(5px);
+        /*블러 효과*/
+        height: 0;
+        overflow: hidden;
+        transition: 0.4s;
+        z-index: 9999;
+    }
+
+    .nav_toggle {
+        visibility: visible;
+        /*.nav-logo 가운데 정확히 위치*/
+        right: 16px;
+        /*오른쪽 여백 16px 위치로*/
+    }
+
+    .nav_item {
+        padding: 1rem 0;
+        margin: 0;
+        margin-right: 0px;
+        border-bottom: 2px solid white;
+    }
+
+    .nav_link {
+        display: block;
+    }
+
+    .show_menu {
+        height: 160px;
+    }
+}
