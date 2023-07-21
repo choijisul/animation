@@ -14,14 +14,8 @@ body {
 }
 
 .logo1 {
-    height: 35px;
-    width: 35px;
-}
-
-.logo2 {
-    height: 40px;
-    width: 175px;
-    margin-bottom: -5px;
+    height: 45px;
+    width: 45px;
 }
 
 .nav_link {
@@ -55,12 +49,6 @@ body {
     .logo1 {
         margin-top: -20px;
         position: absolute;
-    }
-
-    .logo2 {
-        margin-top: -20px;
-        position: absolute;
-        visibility: hidden;
     }
 
     .nav_link {
